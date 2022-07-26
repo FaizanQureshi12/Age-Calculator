@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://source.unsplash.com/1600x900/?birthday');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.inline {
+    display: inline-block;
+}
+
+div#visible {
+    background-color: rgba(112, 171, 147, 0.503);
+    margin-top: 90px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+button {
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: rgb(255, 0, 212);
+    color: aliceblue;
+    box-shadow: 5px 3px black;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:320px) {
+    /* div#visible{background-color:green;width: ;} */
+}

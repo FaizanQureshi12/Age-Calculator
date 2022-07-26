@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script src="age.js"></script>
+  <link rel="stylesheet" href="age.css">
+</head>
+
+<body>
+  
+  <div id="visible">
+
+    <form onsubmit="tellAge(); return false">
+
+      <h1 align="center">Age Calculator</h1>
+      <input type="date" size="30%" id="age">
+      &nbsp; &nbsp; &nbsp;&nbsp;
+      <button type="submit">Check</button>
+
+    </form>
+
+    <center>
+      <h4 id="yearOld"></h4>
+      <h3>Time Left Your Birth Day</h3>
+      <h2 class="inline" id="day">00</h2>
+      <small>Day</small>&nbsp;
+
+      <h2 class="inline" id="hour">00</h2>
+      <small>Hours</small>&nbsp;
+
+      <h2 class="inline" id="minute">00</h2>
+      <small>minute</small>&nbsp;
+
+      <h2 class="inline" id="second">00</h2>
+      <small>second</small>&nbsp;
+    </center>
+
+  </div>
+
+  </body>
+
+</html>
